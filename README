@@ -1,0 +1,17 @@
+gol
+===
+	simple game of life implementation in C
+
+usage
+-----
+	$ make
+	$ ./gol
+
+depends on
+----------
+	* make
+	* c
+
+license
+-------
+	isc
