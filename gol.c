@@ -61,7 +61,6 @@ static struct board state = {
 int
 main(void)
 {
-
 	for (;;) {
 		printboard(state);
 		state = nextboard(state);
