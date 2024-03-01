@@ -127,7 +127,7 @@ size_t
 cellneighbors(struct board state, size_t y0, size_t x0)
 {
 	size_t n;
-	int x, y, dx, dy;
+	ssize_t x, y, dx, dy;
 
 	n = 0;
 	for (dy = -1; dy <= 1; ++dy) {
